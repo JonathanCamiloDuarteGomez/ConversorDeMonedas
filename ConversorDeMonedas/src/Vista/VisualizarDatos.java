@@ -12,7 +12,19 @@ public class VisualizarDatos {
 
     public void mostrarMenu() {
         Scanner sc = new Scanner(System.in);
-        String[] topMonedas = {"USD", "EUR", "GBP", "JPY", "AUD", "CAD", "CHF", "CNY", "MXN", "COP"};
+        String[] topMonedas = {
+                "USD -> Dólar estadounidense",
+                "EUR -> Euro",
+                "GBP -> Libra esterlina",
+                "JPY -> Yen japonés",
+                "AUD -> Dólar australiano",
+                "CAD -> Dólar canadiense",
+                "CHF -> Franco suizo",
+                "CNY -> Yuan chino",
+                "MXN -> Peso mexicano",
+                "COP -> Peso colombiano"
+        };
+
 
         // Encabezado
         System.out.println("***********************************************");
